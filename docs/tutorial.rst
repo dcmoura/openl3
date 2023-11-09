@@ -130,7 +130,7 @@ To compute embeddings for an audio file and directly save them to disk you can u
     # Save the embedding to '/different/dir/file_suffix.npz'
     openl3.process_audio_file(audio_filepath, suffix='suffix', output_dir='/different/dir')
 
-The embddings can be loaded from disk using numpy:
+The embeddings can be loaded from disk using numpy:
 
 .. code-block:: python
 
